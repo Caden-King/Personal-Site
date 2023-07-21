@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(23, 25, 29);
+}
+
+.dropdown-item {
+    transition-property: background-color;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+}
+.dropdown-item:hover {
+    background-color:rgba(53, 68, 100, 0.219);
+}
