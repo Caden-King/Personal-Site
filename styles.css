@@ -8,5 +8,5 @@ body {
     transition-timing-function: linear;
 }
 .dropdown-item:hover {
-    background-color:rgba(53, 68, 100, 0.219);
+    background-color:rgb(44, 49, 56);
 }
