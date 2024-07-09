@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.04280475.css",
-    "main.js": "/static/js/main.ae62cbad.js",
-    "static/media/VarelaRound-Regular.ttf": "/static/media/VarelaRound-Regular.e67ccd4a92677fdf8719.ttf",
-    "index.html": "/index.html",
-    "main.04280475.css.map": "/static/css/main.04280475.css.map",
-    "main.ae62cbad.js.map": "/static/js/main.ae62cbad.js.map"
+    "main.css": "/Personal-Site/static/css/main.85506155.css",
+    "main.js": "/Personal-Site/static/js/main.ae62cbad.js",
+    "static/media/VarelaRound-Regular.ttf": "/Personal-Site/static/media/VarelaRound-Regular.e67ccd4a92677fdf8719.ttf",
+    "index.html": "/Personal-Site/index.html",
+    "main.85506155.css.map": "/Personal-Site/static/css/main.85506155.css.map",
+    "main.ae62cbad.js.map": "/Personal-Site/static/js/main.ae62cbad.js.map"
   },
   "entrypoints": [
-    "static/css/main.04280475.css",
+    "static/css/main.85506155.css",
     "static/js/main.ae62cbad.js"
   ]
 }
