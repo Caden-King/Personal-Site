@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04280475.css",
+    "main.js": "/static/js/main.ae62cbad.js",
+    "static/media/VarelaRound-Regular.ttf": "/static/media/VarelaRound-Regular.e67ccd4a92677fdf8719.ttf",
+    "index.html": "/index.html",
+    "main.04280475.css.map": "/static/css/main.04280475.css.map",
+    "main.ae62cbad.js.map": "/static/js/main.ae62cbad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04280475.css",
+    "static/js/main.ae62cbad.js"
+  ]
+}
