@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 72px;
+    z-index: 98;
+
+    padding: 10px;
+}
+
+.navbar--button {
+    padding: 15px 20px;
+    
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+
+    font-family: "Varela";
+    font-size: 16px;
+    color: black;
+    
+    transition-property: color, background-color;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+
+.navbar--button:hover, .navbar--focused {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    cursor: pointer;
+}
+
+.navbar--focused {
+    background-color: rgb(36, 36, 36);
+    color: white;
+}

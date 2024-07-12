@@ -1,0 +1,27 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (min-width: 1000px) {
+    .home {
+        flex-direction: row;
+    }
+}
+
+.home--rightpane {
+    margin: auto;
+}
+
+.home--bio {
+    padding: 30px;
+}
+
+.home--rightpane > img {
+    width: 400px;
+    height: 400px;
+}

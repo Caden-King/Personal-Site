@@ -1,0 +1,23 @@
+.contact {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 100px;
+}
+
+.contact--card {
+    max-width: 800px;
+
+    padding: 20px;
+
+    font-size: .8em;
+}
+
+.contact--handlecontainer {
+    display: flex;
+    align-items: center;
+}
+
+.contact--handlecontainer > p {
+    margin-left: 10px;
+}
