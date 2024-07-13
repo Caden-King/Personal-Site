@@ -14,19 +14,19 @@
     margin-top: 20px;
     padding: 20px;
 
-    transition: background-color .2s;
-
-    background-color: rgb(245, 245, 245);
+    background-color: var(--color-cardbg);
+    color: var(--color-text);
 
     border-radius: 20px;
 
     cursor: pointer;
 
     width: 100%;
+    transition: background-color .4s;
 }
 
 .projects--card:hover {
-    background-color: rgb(224, 224, 224);
+    background-color: var(--color-hover);
 }
 
 @media screen and (min-width: 820px) {

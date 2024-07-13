@@ -1,0 +1,45 @@
+.lightmode {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    margin: 10px;
+
+    width: 80px;
+    height: 40px;
+
+    border-radius: 100px;
+    background-color: var(--color-switch);
+    transition: background-color .4s;
+
+    cursor: pointer;
+}
+
+.lightmode--circle {
+    position: relative;
+    background-color: var(--color-background);
+    width: 28px;
+    height: 28px;
+    margin: 6px;
+
+    border-radius: 100px;
+}
+
+.lightmode--circle > img {
+    position: absolute;
+    margin: 4px;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+.lightmode--circle-lightmode {
+    background-color: white;
+    left: 40px;
+}
+
+.lightmode--circle-lightmode > img {
+    filter: invert(25%);
+}

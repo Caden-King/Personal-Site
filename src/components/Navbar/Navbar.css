@@ -10,6 +10,9 @@
     z-index: 98;
 
     padding: 10px;
+
+    /* background-color: var(--color-background);
+    transition: background-color .4s; */
 }
 
 .navbar--button {
@@ -17,24 +20,18 @@
     
     border-radius: 50px;
     border: none;
-    background-color: white;
+    background-color: var(--color-background);
 
     font-family: "Varela";
     font-size: 16px;
-    color: black;
+    color: var(--color-text);
     
     transition-property: color, background-color;
-    transition-duration: .2s;
-    transition-timing-function: linear;
+    transition-duration: .4s;
 }
 
 .navbar--button:hover, .navbar--focused {
-    background-color: rgb(36, 36, 36);
+    background-color: var(--color-between);
     color: white;
     cursor: pointer;
-}
-
-.navbar--focused {
-    background-color: rgb(36, 36, 36);
-    color: white;
 }

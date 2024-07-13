@@ -1,0 +1,18 @@
+body {
+    --color-background: #1e1e1e;
+    --color-between: #252526;
+    --color-text: #ececec;
+    --color-cardbg: #282828;
+    --color-hover: #3c3c3c;
+    --color-link: #4352b5;
+    --color-switch: #555555;
+}
+
+body.light {
+    --color-background: white;
+    --color-between: #252526;
+    --color-text: black;
+    --color-cardbg: #f5f5f5;
+    --color-hover: #e5e5e5;
+    --color-switch: #9a9a9a;
+}

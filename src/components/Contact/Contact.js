@@ -12,7 +12,7 @@ export default function Contact() {
                 </div>
                 <div className="contact--handlecontainer">
                     <img src={process.env.PUBLIC_URL + '/linkedin.webp'} width="40px" alt="LinkedIn Icon" />
-                    <p><a href="https://www.linkedin.com/in/caden-king-dev/">caden-king-dev</a></p>
+                    <p><a className="contact--link" href="https://www.linkedin.com/in/caden-king-dev/">caden-king-dev</a></p>
                 </div>
             </div>
         </div>
