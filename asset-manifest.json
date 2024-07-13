@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.90d1802e.css",
+    "main.css": "/static/css/main.727bc620.css",
     "main.js": "/static/js/main.fef3c72f.js",
     "static/media/VarelaRound-Regular.ttf": "/static/media/VarelaRound-Regular.e67ccd4a92677fdf8719.ttf",
     "index.html": "/index.html",
-    "main.90d1802e.css.map": "/static/css/main.90d1802e.css.map",
+    "main.727bc620.css.map": "/static/css/main.727bc620.css.map",
     "main.fef3c72f.js.map": "/static/js/main.fef3c72f.js.map"
   },
   "entrypoints": [
-    "static/css/main.90d1802e.css",
+    "static/css/main.727bc620.css",
     "static/js/main.fef3c72f.js"
   ]
 }
