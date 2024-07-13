@@ -4,7 +4,7 @@ import "./Projects.css"
 export default function Projects() {
     return (
         <div className="projects">
-            <div className="projects--card slide" onClick={() => { window.open("https://www.google.com") }}>
+            <div className="projects--card slide" onClick={() => { window.open("https://github.com/Caden-King/Personal-Site") }}>
                 <div className="projects--info">
                     <h2 className="projects--title">Portfolio Site</h2>
                     <ul className="projects--list">
@@ -38,7 +38,7 @@ export default function Projects() {
                 <img src={process.env.PUBLIC_URL + '/baymart.png'} className="projects--image" alt="BayMart Logo" />
             </div>
 
-            <div className="projects--card slide" onClick={() => { window.open("https://www.google.com") }}>
+            <div className="projects--card slide" >
                 <div className="projects--info">
                     <h2 className="projects--title">Coffee Tasting App</h2>
                     <ul className="projects--list">
