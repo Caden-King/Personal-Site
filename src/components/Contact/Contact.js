@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <div className="contact fadein">
             <div className="contact--card">
-                <h3>Here's my contact information. I'll be looking for a position in summer 2025.</h3>
+                <h3>Here's my contact information. I'm  currently looking for a position.</h3>
                 <div className="contact--handlecontainer">
                     <img src={process.env.PUBLIC_URL + '/email.png'} width="40px" alt="Email Icon" />
                     <p>ivashinking@gmail.com</p>

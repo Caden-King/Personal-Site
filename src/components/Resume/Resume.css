@@ -12,6 +12,7 @@
     width: 100vw;
     max-width: 800px;
     height: 100%;
+    background-color: white;
 }
 
 .resume > button {
