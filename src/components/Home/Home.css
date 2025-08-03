@@ -30,3 +30,7 @@
     width: 400px;
     object-fit: contain;
 }
+
+.mainimage {
+    transition: opacity .4s ease-in-out;
+}

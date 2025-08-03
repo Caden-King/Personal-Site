@@ -2,6 +2,8 @@ import React from "react"
 import "./Home.css"
 
 export default function Home() {
+    const [loaded, setLoaded] = React.useState(false)
+
     return (
         <div className="home">
             <div className="home--leftpane fadein">
@@ -12,7 +14,13 @@ export default function Home() {
                 </div>
             </div>
             <div className="home--rightpane fadein">
-                <img src={process.env.PUBLIC_URL + '/portrait2.PNG'} alt="test"/>
+                <img className="mainimage"
+                    onLoad={() => setLoaded(true)}
+                    style={{ 
+                        opacity: loaded ? 1 : 0
+                        }}
+                    src={process.env.PUBLIC_URL + '/portrait2.PNG'} 
+                    alt=""/>
             </div>
         </div>
     )
